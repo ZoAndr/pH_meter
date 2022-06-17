@@ -476,10 +476,10 @@ class Example(QWidget):
 
     @pyqtSlot()
     def click_Pump_Manual_Start(self):
-        Pump_Start()        
+        self.Pump_Start()        
     @pyqtSlot()
     def click_Pump_Manual_Stop(self):
-        Pump_Stop()
+        self.Pump_Stop()
 
 
             
